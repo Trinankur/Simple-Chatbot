@@ -1,0 +1,79 @@
+* { border: 0; margin: 0;}
+
+body {
+  text-align: center;
+  background-color: #e1ffc2;
+}
+
+h1, h2 {
+  color: #649d66;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  margin-top: 100px;
+}
+
+div {
+  margin-top: 50px;
+}
+
+#speak {
+  width: 100px;
+  background-color: #a8e6cf;
+  display: inline-block;
+  height: 100px;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+#speak i {
+  line-height: 100px;
+  font-size: 30px;
+  color: white;
+}
+
+#speak:hover {
+    cursor: pointer;
+}
+
+form {
+  margin-top: 50px;
+}
+
+#m {
+  background-color: #e1ffc2;
+  color: black;
+  border-bottom: 1px solid #639a67;
+  color: #06623b;
+}
+
+#m:focus {
+  outline: none;
+}
+
+button {
+  border-radius: 50px;
+  color: white;
+  background-color: #639a67;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+button i {
+  line-height: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+p {
+  margin-top: 20px;
+  color: #2b580c;
+}
